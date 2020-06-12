@@ -11,7 +11,7 @@
         "prod": "cross-env NODE_ENV=production webpack-dev-server --mode production --color  --open",
         "webpack:prod": "./node_modules/.bin/webpack --env=prod --progress --profile --colors",
         "build": "yarn clean && yarn webpack:prod",
-        "build-dev": "cross-env NODE_ENV=dev yarn build",
+        "build-dev": "cross-env NODE_ENV=development yarn build",
         "build-local": "cross-env NODE_ENV=local yarn build",
         "build-prod": "cross-env NODE_ENV=production yarn build",
         "format": "prettier --write \"src/**/*.{js,jsx,css}\"",

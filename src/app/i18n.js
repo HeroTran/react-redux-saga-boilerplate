@@ -7,7 +7,7 @@ import translationVn from './translations/vn.json';
 
 window.localStorage.setItem('language', 'en');
 const lang = localStorage.getItem('language') || 'en';
-
+const isDev = process.env.NODE_ENV === 'development';
 const resources = {
   en: {
     translation: translationEN,
@@ -24,7 +24,7 @@ i18n
   .init({
     resources,
     lng: lang,
-    debug: true,
+    debug: !!isDev,
     interpolation: {
       escapeValue: false, // not needed for react!!
       formatSeparator: '.',

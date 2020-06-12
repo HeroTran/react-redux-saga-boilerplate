@@ -4,15 +4,25 @@ exports[`should be rendered without error matches snapshot 1`] = `
 <div
   className="wrapper-home"
 >
-  <img
-    alt="background-home"
-    className="each-svg"
-    src="test-file-stub"
-  />
-  <img
-    alt="background-home"
-    className="each-bg"
-    src="test-file-stub"
-  />
+  <h1>
+    Welcome you !
+  </h1>
+  <p>
+    Hero Tran 210
+  </p>
+  <div
+    className="MuiGrid-root MuiGrid-container"
+  >
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      Grid1
+    </div>
+    <div
+      className="MuiGrid-root MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-6"
+    >
+      Grid2
+    </div>
+  </div>
 </div>
 `;

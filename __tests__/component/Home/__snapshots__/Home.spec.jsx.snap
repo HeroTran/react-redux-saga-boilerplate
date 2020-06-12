@@ -1,0 +1,18 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be rendered without error matches snapshot 1`] = `
+<div
+  className="wrapper-home"
+>
+  <img
+    alt="background-home"
+    className="each-svg"
+    src="test-file-stub"
+  />
+  <img
+    alt="background-home"
+    className="each-bg"
+    src="test-file-stub"
+  />
+</div>
+`;

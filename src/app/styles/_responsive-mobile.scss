@@ -1,0 +1,94 @@
+/* Resolution Mobiles (Landscape)
+*/
+
+@media (min-width: 481px) and (max-width: 767px) {
+  //app
+  .wrapper-page {
+    width: calc(100% - 30px);
+  }
+  //header
+  .wrapper-header {
+    .group-user {
+      .user-name {
+        display: none !important;
+      }
+    }
+    .user-setting {
+      min-width: 200px !important;
+      left: -120px !important;
+    }
+  }
+  //user-setting-page
+  .wrapper-navitigate {
+    width: 80px;
+    max-width: 80px;
+    margin-right: 20px;
+    span {
+      display: none !important;
+    }
+  }
+  .main-page {
+    width: calc(100% - 100px);
+  }
+  //user-profile-detail
+  .wrapper-profile-detail {
+    .each-general {
+      label {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    .each-detail {
+      .teacher-detail-border {
+        border: 0px !important;
+      }
+    }
+  }
+}
+/* Resolution Mobiles (Portrait)
+*/
+
+@media (min-width: 320px) and (max-width: 480px) {
+  //app
+  .wrapper-page {
+    width: calc(100% - 30px);
+  }
+  //header
+  .wrapper-header {
+    .group-user {
+      .user-name {
+        display: none !important;
+      }
+    }
+    .user-setting {
+      min-width: 200px !important;
+      left: -120px !important;
+    }
+  }
+  //user-setting-page
+  .wrapper-navitigate {
+    width: 80px;
+    max-width: 80px;
+    margin-right: 20px;
+    span {
+      display: none !important;
+    }
+  }
+  .main-page {
+    width: calc(100% - 100px);
+  }
+  //user-profile-detail
+  .wrapper-profile-detail {
+    .each-general {
+      label {
+        display: block;
+        margin-bottom: 20px;
+      }
+    }
+    .each-detail {
+      .teacher-detail-border {
+        border: 0px !important;
+      }
+    }
+  }
+}

@@ -1,0 +1,10 @@
+{
+    "common": {
+      "age": "Age",
+      "name": "years old",
+      "gender": "Gender",
+      "address": "Address",
+      "phone": "Phone",
+      "about": "Hero Tran 210"
+    }
+  }

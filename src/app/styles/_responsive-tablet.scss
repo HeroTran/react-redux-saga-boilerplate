@@ -1,0 +1,192 @@
+/* ##Device = Tablets, Ipads (portrait)
+*/
+
+@media (min-width: 768px) and (max-width: 1023px) {
+ //app
+ .wrapper-page{
+    width: calc(100% - 30px);
+  }
+  //login
+  .wrapper-login {
+    .form-background {
+      .bg-login {
+        width: 300px;
+        height: 275px;
+      }
+    }
+  }
+  //header
+  .wrapper-header {
+    .group-user {
+      .user-name {
+        display: none !important;
+      }
+    }
+    .user-setting {
+      min-width: 200px !important;
+      left: -120px !important;
+    }
+  }
+  //home
+  .wrapper-home{
+    .each-svg{
+      height: 300px;
+   }
+  .each-bg{
+      bottom: 20px;
+      right: 50px;
+      width: 250px;
+      height: 196px;
+   }
+  }
+  //user-setting-page
+  .wrapper-navitigate{
+    width: 80px;
+    max-width: 80px;
+    margin-right: 20px;
+    a{
+      i{
+        margin: 0px !important;
+      }
+      span{
+        display: none !important;
+      }
+    }
+  }
+  //setting change pass
+  .wrapper-setting {
+    .form-input {
+      width: calc(80% - 30px);
+    }
+  }
+  
+  .main-page{
+    width:calc(100% - 110px);
+  }
+  //base table classlist
+  .each-classlist{
+    padding: 15px;
+    .main-table{
+      .table-content{
+        .header-table{
+          padding: 10px;
+        }
+      }
+      .table-body{
+        td{
+          padding: 10px;
+        }
+      }
+      .big-width{
+        min-width: 160px;
+      }
+      .medium-width{
+        min-width: 100px;
+        width: 120px;
+      }
+      .small-width{
+        max-width: 100px;
+        width: 100px;
+      }
+    }
+  }
+  //profile
+  .main-profile-learner{
+    width: calc(100% - 30px);
+  }
+}
+/* ##Device = Tablets, Ipads (landscape)*/
+
+@media (min-width: 768px) and (max-width: 1024px) and (orientation: landscape) {
+  //app
+  .wrapper-page{
+    width: calc(100% - 30px);
+  }
+  //login
+  .wrapper-login {
+    .form-background {
+      .bg-login {
+        width: 300px;
+        height: 275px;
+      }
+    }
+  }
+  //header
+  .wrapper-header {
+    .group-user {
+      .user-name {
+        display: none !important;
+      }
+    }
+    .user-setting {
+      min-width: 200px !important;
+      left: -120px !important;
+    }
+  }
+  //home
+  .wrapper-home{
+    .each-svg{
+      height: 300px;
+   }
+  .each-bg{
+      bottom: 20px;
+      right: 50px;
+      width: 250px;
+      height: 196px;
+   }
+  }
+  //user-setting-page
+  .wrapper-navitigate{
+    width: 80px;
+    max-width: 80px;
+    margin-right: 20px;
+    a{
+      i{
+        margin: 0px !important;
+      }
+      span{
+        display: none !important;
+      }
+    }
+  }
+  //setting change pass
+  .wrapper-setting {
+    .form-input {
+      width: calc(80% - 30px);
+    }
+  }
+  .main-page{
+    width:calc(100% - 110px);
+  }
+  //base table classlist
+  .each-classlist{
+    padding: 15px;
+    .main-table{
+      .table-content{
+        .header-table{
+          padding: 10px;
+        }
+      }
+      .table-body{
+        td{
+          padding: 10px;
+        }
+      }
+      .big-width{
+        min-width: 160px;
+      }
+      .medium-width{
+        min-width: 100px;
+        width: 120px;
+      }
+      .small-width{
+        max-width: 100px;
+        width: 100px;
+      }
+    }
+  }
+  //profile
+  .main-profile-learner{
+    width: calc(100% - 30px);
+  }
+}

@@ -1,0 +1,70 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be rendered without error matches snapshot 1`] = `
+<div
+  className="main-upcoming"
+>
+  <a
+    href="/classroom/b6991a15-f9ea-4746-af0c-d637dd66ee8e"
+    onClick={[Function]}
+  >
+    <div
+      className="each-card"
+    >
+      <div
+        className="header-card"
+      >
+        <i />
+        <p>
+          Upcoming Class
+        </p>
+      </div>
+      <div
+        className="info-card"
+      >
+        <p>
+          <span
+            className="info"
+          >
+            Learner :
+          </span>
+          <span
+            className="detail"
+          >
+            learnerName
+          </span>
+        </p>
+        <p>
+          <span
+            className="info"
+          >
+            Date Time :
+          </span>
+          <span
+            className="detail"
+          >
+            2020-05-31 13:00
+          </span>
+        </p>
+        <p>
+          <span
+            className="info"
+          >
+            Lesson Name :
+          </span>
+          <span
+            className="detail"
+          >
+            N/A
+          </span>
+        </p>
+        <p
+          className="booking-type"
+        >
+          Trial
+        </p>
+      </div>
+    </div>
+  </a>
+</div>
+`;

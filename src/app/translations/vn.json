@@ -1,0 +1,10 @@
+{
+    "common": {
+      "age": "Tuổi",
+      "name": "Tên",
+      "gender": "Giới tính",
+      "address": "Địa chỉ",
+      "phone": "SĐT",
+      "about": "Tran Huy Hung"
+    }
+  }

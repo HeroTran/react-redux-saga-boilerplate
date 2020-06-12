@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be rendered without error matches snapshot 1`] = `
+<div
+  className="dropdown-custom"
+>
+  <div
+    className="widget-input"
+  >
+    <input
+      className="input-text"
+      onChange={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      type="text"
+      value="Vietnam"
+    />
+    <i
+      className="arrow-down"
+      onClick={[Function]}
+    />
+  </div>
+</div>
+`;

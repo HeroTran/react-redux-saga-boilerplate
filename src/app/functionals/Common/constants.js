@@ -1,0 +1,106 @@
+export const API_URL = {
+  API_GET_LIST_COUNTRIES: 'api/countries/',
+};
+export const LOCAL_STORAGE_KEY = {
+  LEARNER_SELECTED_ID: 'LEARNER_SELECTED_ID',
+  CURRENT_USER: 'CURRENT_USER',
+  USER_TIMEZONE: 'USER_TIMEZONE',
+  LIST_TIME_ZONE: 'LIST_TIME_ZONE',
+  LIST_COUNTRIES: 'LIST_COUNTRIES',
+};
+export const ROLE = {
+  ROLE_TEACHER: 'ROLE_TEACHER',
+  ROLE_PARENT: 'ROLE_PARENT',
+  ROLE_ADMIN: 'ROLE_ADMIN',
+};
+
+export const ROUTE_PAGE = {
+  ROUTE_ROOT: '/',
+  ROUTE_HOME: '/home',
+  ROUTE_LOGIN: '/login',
+  ROUTE_FORGOT_PASSWORD: '/forgot-password',
+  ROUTE_CLASSLIST: '/classList',
+  ROUTE_OPEN_SLOT: '/open-slot',
+  ROUTE_PROFILE: '/profile',
+  ROUTE_PROFILE_EDIT: '/profileEdit',
+  ROUTE_LEARNER_PROFILE: '/learners/:id',
+  ROUTE_LEARNER: '/learners/',
+  ROUTE_SETTING: '/setting',
+  ROUTE_VIRTUALCLASSROOM: '/classroom/:id',
+  ROUTE_CLASSROOM: '/classroom/',
+};
+
+export const DAY_FORMAT = {
+  FORMAT_DATE_VIEW: 'DD/MM/YYYY',
+  FORMAT_YEAR_VIEW: 'YYYY/MM/DD',
+  FORMAT_DATE_POST: 'YYYY-MM-DD',
+  CALENDAR_YEAR_FORMAT: 'YYYY',
+  CALENDAR_MONTH_YEAR_FORMAT: 'MMMM-YYYY',
+  BACK_END_START_TIME_FORMAT: 'YYYY-MM-DD 00:00',
+  BACK_END_END_TIME_FORMAT: 'YYYY-MM-DD 23:59',
+  DATE_TIME_BACK_END_FORMAT: 'YYYY-MM-DD HH:mm',
+  DATE_TIME_DISPLAY_FORMAT: 'YYYY-MM-DD HH:mm',
+};
+
+export const TIME_FORMAT = {
+  ONE_HOUR: 3600,
+  YEAR: 'years',
+  MONTH: 'month',
+  DAY: 'day',
+  MINUSTES: 'minutes',
+};
+
+export const PAGE_FORMAT = {
+  PAGE_DEFAULT: 1,
+  SIZE_FIVE: 5,
+  SIZE_DEFAULT: 10,
+  SIZE_TWENTY: 20,
+  SIZE_MAXIMUM: 100,
+  TOTAL_DEFAULT: 0,
+  SORT: 'desc',
+};
+
+export const STATUS_RESPONSES = {
+  SUCCESS: 200,
+  BAD_REQUEST: 400,
+  UNAUTHORIZED: 401,
+  FORBIDDEN: 403,
+  INTERNAL_SERVER_ERROR: 500,
+  CLIENT_CLOSED_REQUEST: 499,
+};
+
+export const AVATAR_CONSTANTS = {
+  MIN_SCALE: 1,
+  MAX_SCALE: 2,
+  POSITION: 0.5,
+  WIDTH_HEIGHT_AVATAR_EDIT: 250,
+  BORDER_AVATAR_EDIT: 50,
+  STEP_SCALE: 0.1,
+};
+
+export const UPLOAD_CONSTANT = {
+  MIN_PROGRESS: 1,
+  MAX_PROGRESS: 100,
+  FIRST_OR_EMPTY: 0,
+  HAFT_PROGRESS: 50,
+};
+
+export const FORMAT_FILE = {
+  IMG: 'image/x-png,image/gif,image/jpeg',
+  PDF: 'application/pdf',
+};
+
+export const TIME_OUT = {
+  AUTO_SEARCH: 1000,
+  SCROLL_TIME_OUT: 30,
+  UPDATE_PROFILE: 2000,
+  RESET_PASS_FORGOT: 3000,
+};
+
+export const KEY_CODE = {
+  ARROW_UP: 38,
+  ARROW_DOWN: 40,
+  ARROW_BACK: 37,
+  ENTER: 13,
+  TAB: 9,
+};

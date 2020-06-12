@@ -1,0 +1,92 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`should be rendered without error matches snapshot 1`] = `
+<div
+  className="wrapper-forgot"
+>
+  <div
+    className="MuiGrid-container-1"
+  >
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+    >
+      <div
+        className="form-background forgot"
+      >
+        <div
+          className="bg-forgot"
+        />
+        <div
+          className="go-back"
+        >
+          <a
+            href="/login"
+            onClick={[Function]}
+          />
+        </div>
+      </div>
+    </div>
+    <div
+      className="MuiGrid-item-2 MuiGrid-grid-xs-12-41 MuiGrid-grid-sm-6-49"
+    >
+      <div
+        className="form-forgot"
+      >
+        <div
+          className="main-forgot"
+        >
+          <div
+            className="logo-forgot"
+          />
+          <h1
+            className="heading-forgot"
+          >
+            Forgot password?
+          </h1>
+          <div>
+            <p
+              className="des-forgot"
+            >
+              Please send us your email, We will send you a code to reset your password
+            </p>
+            <form
+              onSubmit={[Function]}
+            >
+              <div
+                className="group-form"
+              >
+                <div
+                  className="each-form"
+                >
+                  <input
+                    className="form-control input-form"
+                    name="email"
+                    placeholder="Email"
+                  />
+                  <i
+                    className="icon icon-email"
+                  />
+                </div>
+                <div
+                  className="each-form each-form-center"
+                >
+                  <button
+                    className="btn btn-primary"
+                    disabled={false}
+                    name="signin"
+                    type="submit"
+                  >
+                    Send
+                    
+                  </button>
+                </div>
+              </div>
+            </form>
+            
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+`;

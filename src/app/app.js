@@ -1,14 +1,17 @@
 import * as React from 'react';
-import { HashRouter, Switch, Route } from 'react-router-dom';
-import { AppContainer } from './containers';
+import { Switch, Route } from 'react-router-dom';
+
+const AppContainer = React.lazy(() => import('./containers/App/AppContainer'));
 
 const App = () => {
   return (
-    <HashRouter>
-      <Switch>
-        <Route path="/" component={AppContainer} />
-      </Switch>
-    </HashRouter>
+    <Switch>
+      <React.Suspense fallback={<h2>Loading...</h2>}>
+        <Switch>
+          <Route path="/" component={AppContainer} />
+        </Switch>
+      </React.Suspense>
+    </Switch>
   );
 };
 export default App;

@@ -16,6 +16,9 @@ module.exports = (api) => {
       [
         require('@babel/preset-env'),
         {
+          targets: {
+            esmodules: true,
+          },
           modules: 'commonjs',
         },
       ],

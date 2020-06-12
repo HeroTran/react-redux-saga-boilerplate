@@ -4,6 +4,7 @@ const HtmlWebpackPlugin = require('html-webpack-plugin');
 const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 const TerserPlugin = require('terser-webpack-plugin');
 const OptimizeCSSAssetsPlugin = require('optimize-css-assets-webpack-plugin');
+const BundleAnalyzerPlugin = require('webpack-bundle-analyzer').BundleAnalyzerPlugin;
 const Dotenv = require('dotenv-webpack');
 
 const env = process.env.NODE_ENV;
@@ -169,7 +170,6 @@ module.exports = {
       hash: true,
       inject: true,
       template: './src/app/index.html',
-      favicon: './src/public/img/favicon.jpg',
       filename: 'index.html',
       minify: {
         removeComments: true,
@@ -187,6 +187,7 @@ module.exports = {
     new webpack.LoaderOptionsPlugin({
       debug: false,
     }),
+    new BundleAnalyzerPlugin(),
     new webpack.optimize.AggressiveMergingPlugin(),
     new webpack.optimize.OccurrenceOrderPlugin(),
     new Dotenv({

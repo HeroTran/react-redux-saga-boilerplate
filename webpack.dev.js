@@ -96,7 +96,6 @@ module.exports = {
     }),
     new HtmlWebpackPlugin({
       template: './src/app/index.html',
-      favicon: './src/public/img/favicon.jpg',
       filename: 'index.html',
     }),
     new Dotenv({

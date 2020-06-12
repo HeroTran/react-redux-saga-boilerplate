@@ -10,5 +10,5 @@ export function* getHome() {
 }
 
 export default function* root() {
-  yield all([takeLatest(actiontypes.GET_CLASS_LIST_REQUEST, getHome)]);
+  yield all([takeLatest(actiontypes.GET_HOME_REQUEST, getHome)]);
 }

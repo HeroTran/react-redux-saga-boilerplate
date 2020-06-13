@@ -1,10 +1,10 @@
 {
-    "name": "fe-react-redux-saga",
+    "name": "react-redux-saga-boilerplate",
     "version": "0.0.1",
     "private": true,
     "author": "HeroTran",
     "description": "this is my own project for react-redux-saga",
-    "main": "index.js",
+    "main": "./src/app/index.js",
     "scripts": {
         "dev": "cross-env NODE_ENV=development webpack-dev-server --mode development --color --port 3001 --open",
         "prod": "cross-env NODE_ENV=production webpack-dev-server --mode production --color  --port 3001 --open",
@@ -22,6 +22,7 @@
     "license": "MIT",
     "dependencies": {
         "@material-ui/core": "^4.10.2",
+        "axios": "^0.19.2",
         "react": "^16.13.1",
         "react-dom": "^16.13.1",
         "react-redux": "^7.2.0",
@@ -53,7 +54,6 @@
         "@babel/preset-react": "^7.10.1",
         "@babel/register": "^7.10.1",
         "@hot-loader/react-dom": "^16.13.0",
-        "axios": "^0.19.2",
         "babel-core": "^6.26.3",
         "babel-eslint": "^10.1.0",
         "babel-jest": "^26.0.1",

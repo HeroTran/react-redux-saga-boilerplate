@@ -4,10 +4,8 @@ react-redux-saga-boilerplate
 
 ## First, clone the repo via git and install dependencies:(Should use yarn)
 
-## Starting Local (Test use API dev on app)
-
 ```bash
-yarn dev or npm run local
+yarn or npm install
 ```
 
 

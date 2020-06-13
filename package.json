@@ -1,6 +1,6 @@
 {
     "name": "fe-react-redux-saga",
-    "version": "1.0.0",
+    "version": "0.0.1",
     "private": true,
     "author": "HeroTran",
     "description": "this is my own project for react-redux-saga",
@@ -116,14 +116,16 @@
         "yarn": "^1.22.4"
     },
     "keywords": [
-        "electron",
         "react",
         "redux",
+        "redux-saga",
+        "immutable",
         "scss",
         "material",
         "webpack",
         "hot",
-        "reload"
+        "reload",
+        "jest"
     ],
     "jest": {
         "verbose": true,

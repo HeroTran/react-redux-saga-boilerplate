@@ -29,6 +29,11 @@ yarn prod or npm run prod
 yarn lint or npm run lint
 ```
 
+## Unit test
+```bash
+yarn test or npm run test
+```
+
 ## Deploy for Production
 
 ```bash

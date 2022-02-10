@@ -94,7 +94,7 @@
         "lodash": "^4.17.15",
         "mini-css-extract-plugin": "^0.9.0",
         "moment": "^2.26.0",
-        "node-sass": "^4.14.1",
+        "node-sass": "^7.0.0",
         "optimize-css-assets-webpack-plugin": "^5.0.3",
         "prettier": "^2.0.5",
         "progress-bar-webpack-plugin": "^2.1.0",
